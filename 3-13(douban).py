@@ -66,7 +66,7 @@ def get(x):
 if __name__ == '__main__':
     conn = pymysql.connect(
         user='root', passwd='9527',
-        db='db', host='120.77.203.115', charset="utf8", use_unicode=True
+        db='db', host='120.77.203.125', charset="utf8", use_unicode=True
     )
     cursor = conn.cursor()
     createTab = """CREATE TABLE IF NOT EXISTS haiwang_comment(
